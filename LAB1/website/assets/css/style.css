@@ -1,0 +1,155 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container{
+    width: 1000px;
+    margin: 0 auto;
+}
+
+
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 60px;
+}
+
+
+.banner{
+    background-color: #74c0fc;
+
+    position: relative;
+    height: auto;
+    padding: 50px 50px;
+    display: grid;
+    grid-template-columns: 500px 1fr;
+}
+
+.banner-text{
+    /* width: 400px; */
+}
+
+.banner-text h1{
+    font-size: 52px;
+    font-weight: 600;
+    line-height: 1.2;
+
+    margin-bottom: 32px;
+}
+
+
+.banner-text p{
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 1.6;
+    margin-bottom: 32px;
+}
+
+.banner-text 
+a:link,
+a:visited{
+    text-decoration: none;
+    text-transform: uppercase;
+    text-align: center;
+    color: #343a40;
+
+    display: inline-block;
+    border: solid 1px #343a40;
+    width: 150px;
+    padding: 15px 0;
+
+    font-size: 18px;
+    font-weight: 600;
+
+}
+
+.banner-image{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(0, -50%);
+}
+
+
+.section--2{
+    margin-top: 72px !important;
+
+    width: 1200px;
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 20px;
+    
+
+    
+}
+
+.section--2 h2{
+    grid-column: 1/-1;
+    font-size: 42px;
+    color: #343a40;
+}
+
+.section--2 .item{
+    position: relative;
+    padding: 10px 10px;
+    height: 400px;
+    background-color: #e9ecef;
+}
+
+.section--2 .info{
+    position: absolute;
+    bottom: 60px;
+    left: 42px;
+    color: #212529;
+    line-height: 1.5;
+    text-transform: uppercase;
+}
+
+.section--2 .info h3{
+    font-size: 28px;
+}
+
+.section--2 .info span{
+    font-size: 12px;
+}
+
+.section--2 img{
+    width: 100%;
+}
+
+
+.section--3{
+    margin-top: 72px !important;
+
+    width: 1200px;
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    gap: 20px;
+}
+
+.section--3 h2{
+    grid-column: 1/-1;
+    font-size: 42px;
+    color: #343a40;
+    margin-bottom: 12px;
+}
+
+.section--3 .item{
+    height: 300px;
+    border: solid 1px #e9ecef;
+}
+
+.section--3 .item img{
+    width: 100%;
+}
+
+
+.section--4{
+    margin-top: 64px;
+
+}
